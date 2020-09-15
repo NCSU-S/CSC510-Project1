@@ -1,3 +1,3 @@
 # Job Hunter
 
-[![](http://img.youtube.com/vi/RjuRyy52lr4/0.jpg)](http://www.youtube.com/watch?v=RjuRyy52lr4 "")
+[![](https://i.ytimg.com/vi/GGBfwFBTb6k/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDhtTY12EkZoUk2IMpix62e_hj3RQ)](https://www.youtube.com/watch?v=GGBfwFBTb6k "")
