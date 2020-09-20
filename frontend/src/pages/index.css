@@ -1,20 +1,15 @@
-.landing-page-main, .jobs-page-main{
+.landing-page-main, .jobs-page-main, .login-page{
     height: 100vh;
     background-color: #2f2f2f !important;
     box-sizing: border-box;
     z-index: -2;
     text-align: center;
+    font-family: 'Jost' !important;
 }
 .landing-page-colomn-wrap, .jobs-page-colomn-wrap{
     margin: 0 auto !important;
     width: 80% !important;
     margin-top: 100px !important;
-}
-.login-page{
-    height: 100vh;
-    background-color: #d0d6dd !important;
-    box-sizing: border-box;
-    z-index: -2;
 }
 
 .title{
@@ -26,6 +21,7 @@
 }
 .subtitle{
     color: white;
+    font-size: 20px;
 }
 
 .job-card{
@@ -35,6 +31,8 @@
 }
 .job-card:hover{
     transform: scale(1.06);
+    color: #616A6B !important;
+    background-color: white !important;
     transition: all ease-out .3s;
 }
 .job-list{
@@ -43,4 +41,34 @@
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+.title-login{
+    padding: 20px 20px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.input{
+    margin: 0 auto !important;
+    width: 20%;
+}
+
+.label{
+    font-size: 20px;
+    color: white;
+}
+.form-group{
+    text-align: center;
+    padding: 20px;
+}
+
+.login-btn{
+    margin-top: 30px;
+    color: white !important;
+    background-color: #588bae  !important;
+    border: none !important;
+    text-transform: uppercase;
 }
