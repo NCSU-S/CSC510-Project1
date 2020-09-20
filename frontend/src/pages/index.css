@@ -8,6 +8,7 @@
 .landing-page-colomn-wrap, .jobs-page-colomn-wrap{
     margin: 0 auto !important;
     width: 80% !important;
+    margin-top: 100px !important;
 }
 .login-page{
     height: 100vh;
@@ -35,4 +36,11 @@
 .job-card:hover{
     transform: scale(1.06);
     transition: all ease-out .3s;
+}
+.job-list{
+    padding: 20px 20px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
