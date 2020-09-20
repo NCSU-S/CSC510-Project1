@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.body{
+  background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-page-main{
+  height: 100vh;
+  background-color: #d0d6dd !important;
+  box-sizing: border-box;
+  z-index: -2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.job-page-colomn-wrap{
+  margin: 0 auto;
+  width: 90%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login-page{
+  height: 100vh;
+  background-color: #d0d6dd !important;
+  box-sizing: border-box;
+  z-index: -2;
+}
+.navigation{
+  padding: 0px 20px !important;
+  background-color: #588bae !important;
+  color:#Fff;
+  box-shadow: 0px 1px 5px rgba(0,0,0,.9);
+}
+.nav-btn{
+  color: white !important;
+  background-color: #1c3144 !important;
+  border: none !important;
+}
+.nav-btn:hover{
+  color: #588bae !important;
+  background-color: white !important;
+}
+.link{
+  text-decoration: none !important;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.link:hover{
+  color: darksalmon !important;
+}
+.link-item{
+  padding: 0 5px !important;
+  font-size: 18px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topnav-section{
+  padding-left: 20px !important;
 }
