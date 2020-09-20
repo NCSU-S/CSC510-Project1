@@ -1,0 +1,14 @@
+.navigation{
+    padding: 0px 20px !important;
+    background-color: #588bae !important;
+    color:#Fff
+}
+.nav-btn{
+    color: white !important;
+    background-color: #1c3144 !important;
+    border: none !important;
+}
+.nav-btn:hover{
+    color: #588bae !important;
+    background-color: white !important;
+}
