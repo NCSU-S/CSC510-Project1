@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider as BumbagProvider} from 'bumbag';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     <BumbagProvider>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </BumbagProvider>
   </React.StrictMode>,
   document.getElementById('root')

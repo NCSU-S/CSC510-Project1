@@ -1,0 +1,38 @@
+.landing-page-main, .jobs-page-main{
+    height: 100vh;
+    background-color: #2f2f2f !important;
+    box-sizing: border-box;
+    z-index: -2;
+    text-align: center;
+}
+.landing-page-colomn-wrap, .jobs-page-colomn-wrap{
+    margin: 0 auto !important;
+    width: 80% !important;
+}
+.login-page{
+    height: 100vh;
+    background-color: #d0d6dd !important;
+    box-sizing: border-box;
+    z-index: -2;
+}
+
+.title{
+    padding: 20px 20px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.subtitle{
+    color: white;
+}
+
+.job-card{
+    border-radius: 15px !important;
+    background-color:  #616A6B!important;
+    color: white !important;
+}
+.job-card:hover{
+    transform: scale(1.06);
+    transition: all ease-out .3s;
+}
