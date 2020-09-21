@@ -72,3 +72,21 @@
     border: none !important;
     text-transform: uppercase;
 }
+
+.btn-div{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-btn-save{
+    margin: 15px !important;
+    background-color: dodgerblue !important;
+    border: none !important;
+}
+.cart-btn-apply{
+    background-color: seagreen !important;
+    border: none !important;
+}
